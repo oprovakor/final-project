@@ -1,0 +1,547 @@
+ @media (min-width: 1200px) and (max-width: 1399.98px) { 
+    header {
+        height: 100vh;
+    }
+ }
+ @media (min-width: 992px) and (max-width: 1199.98px) { 
+    header {
+        height: 85vh;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    section{
+        padding: 2rem 0;
+    }
+    header{
+        height: 50vh;
+    }
+    .logo{
+        height: 4rem;
+        padding-left: 3rem;
+    }
+    .main-nav li a:link{
+        font-size: 1rem;
+    }
+    .slider{
+       width: 90%;
+       margin: 0 auto;
+    }
+    h2{
+        font-size: 1.6rem;
+        padding-top: 2rem;
+    }
+    h2::after{
+        width: 4rem;
+        margin-top: .5rem;
+    }
+    .main{
+        flex-direction: column-reverse;
+    }
+    h3{
+        font-size: 1.4rem;
+        font-weight: 800;
+        display: block;
+        padding-top: 0rem;
+        padding-bottom: .5rem;
+    }
+    .division-box{
+        width: 78%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 1rem;
+    }
+    .division-name li{
+        display: inline-block;
+    }
+    .division-name i {
+        padding-right: 0.5rem;
+        padding-left: .8rem;
+    }
+    .items-box{
+        flex-basis: 45%;
+        max-width: 41rem;
+        padding: 1rem 1rem 2rem 1rem;
+    }
+    .items-box img {
+        width: 100%;
+        height: 22rem;
+        padding: 1rem;
+    }
+    .button{
+        margin: 3rem 6rem 2rem 6rem;
+    }
+
+    .division-name a {
+        font-size: 1.2rem;
+    }
+    /* login start */
+    .login-row {
+        width: 80%;
+    } 
+    form{
+        padding: 3rem 5rem;
+    }
+    .login-row h3{
+        font-size: 2rem;
+    }
+    .login-row .login-area .email input,
+     .login-row .login-area .password input{
+        width: 70%;
+        padding: .5rem;
+    }
+    /* signup start */
+    .login-row {
+        width: 80%;
+    } 
+    .login-row h3{
+        font-size: 2rem;
+    }
+    /* Division start */
+    .main-division {
+        flex-direction: column-reverse;
+    }
+    .main-division h3{
+        padding-top: 3rem;
+    }
+    .right-side .division h3{
+        padding-top: .5rem;
+    }
+    .shop-box{
+        flex-basis: 50%;
+        max-width: 35rem;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    section{
+        padding: 2rem 0;
+    }
+    header{
+        height: 60vh;
+    }
+    .logo{
+        height: 4rem;
+        padding-left: 3rem;
+    }
+    .main-nav li a:link{
+        font-size: 1rem;
+    }
+    .slider{
+       width: 90%;
+       margin: 0 auto;
+    }
+    h2{
+        font-size: 1.6rem;
+        padding-top: 2rem;
+    }
+    h2::after{
+        width: 4rem;
+        margin-top: .5rem;
+    }
+    .main{
+        flex-direction: column-reverse;
+    }
+    h3{
+        font-size: 1.4rem;
+        font-weight: 800;
+        display: block;
+        padding-top: 0rem;
+        padding-bottom: .5rem;
+    }
+    .division-box{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding: .8rem;
+    }
+    .division-name li{
+        display: inline-block;
+    }
+    .division-name i {
+        padding-right: 0.5rem;
+        padding-left: .8rem;
+    }
+    .items-box{
+        flex-basis: 45%;
+        max-width: 41rem;
+        padding: 1rem 1rem 2rem 1rem;
+    }
+    .items-box img {
+        width: 80%;
+        height: 12rem;
+        display: block;
+        margin: 0 auto;
+    }
+    .button{
+        margin: 1rem 6rem 1rem 6rem;
+    }
+
+    .division-name a {
+        font-size: 1rem;
+    }
+    .category-box{
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    .button a{
+        font-size: 1rem;
+        font-weight: 800;
+    }
+    /* login start */
+    .login-row {
+        width: 90%;
+    } 
+    form{
+        padding: 3rem 5rem;
+    }
+    .login-row h3{
+        font-size: 2rem;
+    }
+    .login-row .login-area .email input,
+     .login-row .login-area .password input{
+        width: 90%;
+        padding: .5rem;
+    }
+      /* signup start */
+      .signup{
+        width: 80%;
+    }
+      .form-control{
+        margin-bottom: .1rem;
+        padding-bottom: 2rem;
+    }
+    .form-control small{
+        top: 5.5rem;
+    }
+    .form-control label{
+        font-size: 1.8rem;
+        margin-bottom: .2rem;
+    }
+    .form-control input{
+        padding: .5rem;
+        font-size: 1.5rem;
+    }
+     /* Division start */
+     .main-division {
+        flex-direction: column-reverse;
+    }
+    .main-division h3{
+        padding-top: 3rem;
+    }
+    .shop-box{
+        flex-basis: 50%;
+        max-width: 26rem;
+    }
+    .right-side .division h3{
+        padding-top: .5rem;
+    }
+
+
+}
+@media (min-width: 420px) and (max-width: 575.98px){
+
+    section{
+        padding: 2rem 0;
+    }
+    header{
+        height: 60vh;
+    }
+    .logo{
+        height: 3rem;
+        padding-left: 3rem;
+    }
+    .main-nav{
+        margin-top: .9rem;
+    }
+    .main-nav li a:link{
+        font-size: 1rem;
+        padding: .5rem 1rem;
+    }
+    .slider{
+       width: 90%;
+       margin: 0 auto;
+    }
+    .manual-btn:not(:last-child) {
+        margin-right: 2rem;
+    }
+    .manual-btn {
+        border: 0.2rem solid #872301;
+        padding: .3rem; 
+    }
+    h2{
+        font-size: 1.6rem;
+        padding-top: 2rem;
+    }
+    h2::after{
+        width: 4rem;
+        margin-top: .5rem;
+    }
+    .main{
+        flex-direction: column-reverse;
+    }
+    h3{
+        font-size: 1.4rem;
+        font-weight: 800;
+        display: block;
+        padding-top: 0rem;
+        padding-bottom: .5rem;
+    }
+    .division-box{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding: .8rem;
+    }
+    .division-name li{
+        display: inline-block;
+    }
+    .division-name i {
+        padding-right: 0.5rem;
+        padding-left: .8rem;
+    }
+    .items-box{
+        flex-basis: 50%;
+        max-width: 18rem;
+        padding: 1rem 2rem 1rem 2rem;
+        margin-bottom: 3rem;
+    }
+    .items-box img {
+        width: 70%;
+        height: 9rem;
+        display: block;
+        margin: 0 auto;
+    }
+    .button{
+        margin: 1rem 2rem 1rem 2rem;
+    }
+
+    .division-name a {
+        font-size: 1rem;
+    }
+    .category-box{
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    .button a{
+        font-size: 1rem;
+        font-weight: 800;
+    }
+    .footer-section .footer-font{
+        font-size: 1rem;
+    }
+    /* login start */
+    .login-row {
+        width: 90%;
+    } 
+    form{
+        padding: 3rem 2rem;
+    }
+    .login-row h3{
+        font-size: 2rem;
+    }
+    .login-row .login-area .email input,
+     .login-row .login-area .password input{
+        width: 70%;
+        padding: .5rem;
+    }
+    /* signup start */
+    .signup{
+        width: 90%;
+    }
+    .form-control{
+        margin-bottom: .1rem;
+        padding-bottom: 2rem;
+    }
+    .form-control small{
+        top: 5rem;
+    }
+    .form-control label{
+        font-size: 1.5rem;
+        margin-bottom: .2rem;
+    }
+    .form-control input{
+        padding: .5rem;
+        font-size: 1.2rem;
+    }
+      /* Division start */
+      .main-division {
+        flex-direction: column-reverse;
+    }
+    .main-division h3{
+        padding-top: 3rem;
+    }
+    .right-side .division h3{
+        padding-top: .5rem;
+    }
+}
+@media (max-width: 420px){
+    section{
+        padding: 2rem 0;
+    }
+    header{
+        height: 35vh;
+    }
+    .logo{
+        height: 3rem;
+        padding-left: 3rem;
+    }
+    .main-nav{
+        margin-top: .9rem;
+    }
+    .main-nav li a:link{
+        font-size: 1rem;
+        padding: .5rem 1rem;
+    }
+    .slider{
+       width: 90%;
+       margin: 0 auto;
+    }
+    .manual-btn:not(:last-child) {
+        margin-right: 2rem;
+    }
+    .manual-btn {
+        border: 0.2rem solid #872301;
+        padding: .3rem; 
+    }
+    h2{
+        font-size: 1.6rem;
+        padding-top: 2rem;
+    }
+    h2::after{
+        width: 4rem;
+        margin-top: .5rem;
+    }
+    .main{
+        flex-direction: column-reverse;
+    }
+    h3{
+        font-size: 1.4rem;
+        font-weight: 800;
+        display: block;
+        padding-top: 0rem;
+        padding-bottom: .5rem;
+    }
+    .division-box{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding: .8rem;
+    }
+    .division-name li{
+        display: inline-block;
+    }
+    .division-name i {
+        padding-right: 0.5rem;
+        padding-left: .8rem;
+    }
+    .items-box{
+        flex-basis: 50%;
+        max-width: 18rem;
+        padding: 1rem 2rem 1rem 2rem;
+        margin-bottom: 3rem;
+    }
+    .items-box img {
+        width: 70%;
+        height: 9rem;
+        display: block;
+        margin: 0 auto;
+    }
+    .button{
+        margin: 1rem 2rem 1rem 2rem;
+    }
+
+    .division-name a {
+        font-size: 1rem;
+    }
+    .category-box{
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    .button a{
+        font-size: 1rem;
+        font-weight: 800;
+    }
+    .footer-section .footer-font{
+        font-size: 1rem;
+    }
+    /* login start */
+    .login-row {
+        width: 90%;
+    } 
+    form{
+        padding: 3rem 2rem;
+    }
+    .login-row h3{
+        font-size: 1.5rem;
+    }
+    .login-row .login-area .email input,
+     .login-row .login-area .password input{
+        width: 90%;
+        padding: .5rem;
+    }
+    .login-area .email label,
+    .login-area .password label {
+        font-size: 1.2rem;
+    }.login-row .login input{
+        font-size: 1.4rem;
+        padding: .5rem 2rem;
+    }
+      /* signup start */
+      .signup{
+          width: 90%;
+      }
+      .form-control{
+          margin-bottom: .1rem;
+          padding-bottom: 1.5rem;
+      }
+      .form-control label{
+          font-size: 1.5rem;
+          margin-bottom: .2rem;
+      }
+      .form-control input{
+          padding: .5rem;
+          font-size: 1.2rem;
+      }
+      .form-control small{
+          top: 4.7rem;
+      }
+      /* Division start */
+      .main-division {
+        flex-direction: column-reverse;
+    }
+    .main-division h3{
+        padding-top: 3rem;
+    }
+    .right-side .division h3{
+        padding-top: .5rem;
+    }
+
+    .main-division .left-sides{
+        margin: 0 auto;
+    }
+    .main-division .shop-box{
+        flex-basis: 90%;
+        max-width: 45rem;
+    }
+    /* pagination */
+    .pagination ul li .pageNumber {
+        width: 1.5rem;
+    }
+    .pagination ul {
+        padding: 0 2rem;
+    }
+    .pagination ul li{
+        padding-top: 1.5rem;
+    }
+    .pagination ul li a{
+        font-size: .8rem;
+        line-height: 1.5rem;
+    }
+    .pagination ul li:first-child {
+        margin-right: 1rem;
+        padding-top: 1.5rem;
+    }
+    .pagination ul li:last-child {
+        margin-left: 1rem;
+        padding-top: 1.5rem;
+    }
+}
