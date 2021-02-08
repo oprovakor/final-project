@@ -26,7 +26,7 @@ function checkEmail(input){
         showSuccess(input)
     }
     else{
-        showError(input, 'Email is valid');
+        showError(input, 'Email is invalid');
     }
 }
 
