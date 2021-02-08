@@ -49,29 +49,46 @@ function checkLength(input, min, max){
     else if(input.value.lengh < max){
         showError(input,`${getFieldName(input)} must be less than ${max} characters`);
     }
+
     else{
         showSuccess(input)
     }
-
+    
 } 
+//check username
+function checkUsername(input,min,max){
+    const name = /^[a-zA-Z\-]+$/;
+    if(input.value.length<min){
+        showError(input,`${getFieldName(input)} must be at least ${min} characters`);
+    } 
+    else if(input.value.length > max){
+        showError(input,`${getFieldName(input)} must be less than ${max} characters`);
+    }
+    else if(input.value.match(name))
+    true;
+    else{
+        showError(input,`${getFieldName(input)} only alphabets are allowed `);
+    }
+        
+}
 
 // get field Name
 function getFieldName(input){
     return input.id.charAt(0).toUpperCase() + input.id.slice(1);
 }
 //check password maching
-function checkPasswordsMatch(input1, input2){
+function checkPasswordsMatch(input1,input2){
     if(input1.value!==input2.value){
         showError(input2,'passwords do not match');
     }
 }
 
 // even listeners
-form.addEventListener('submit',function(e){
+ form.addEventListener('submit',function(e){
    e.preventDefault();
    
  checkRequired([username,email,password,confirm]);
- checkLength(username, 3, 15);
+ checkUsername(username, 3, 15);
  checkLength (password, 8, 25);
  checkEmail(email);
  checkPasswordsMatch(password,confirm);
