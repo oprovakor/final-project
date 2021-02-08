@@ -494,8 +494,8 @@ ul li:last-child{
 .login-row .login button{
     margin: 0 auto;
     display: block;
-    margin-left: 40%;
-    margin-top: 5rem;
+    margin-left: 38%;
+    margin-top: 7rem;
     padding: .5rem 2.5rem;
     font-size: 2rem;
     text-transform: capitalize;
@@ -576,6 +576,7 @@ form{
     text-align: center;
     color: #777;
     margin: 0 auto;
+    margin-top: 4rem;
     padding: .5rem 2rem;
     border: 0;
     border-radius: .3rem;

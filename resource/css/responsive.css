@@ -89,6 +89,9 @@
         width: 70%;
         padding: .5rem;
     }
+    .login-row .login button{
+        margin-left: 42%;
+    }
     /* signup start */
     .login-row {
         width: 80%;
@@ -203,6 +206,9 @@
      .login-row .login-area .password input{
         width: 90%;
         padding: .5rem;
+    }
+    .login-row .login button{
+        margin-left: 40%;
     }
       /* signup start */
       .signup{
@@ -501,6 +507,9 @@
     }.login-row .login input{
         font-size: 1.4rem;
         padding: .5rem 2rem;
+    }
+    .login-row .login button{
+        margin-left: 34%;
     }
       /* signup start */
       .signup{
