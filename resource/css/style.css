@@ -689,6 +689,67 @@ form{
 /*=============================*/
 /*Divisio section end*/
 /*=============================*/
+/* account-section start*/
+.account{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    text-transform: capitalize;
+    box-shadow: .2rem .2rem .2rem #b6b6b6,
+                -.1em -.1rem .2rem #dddcdc;
+}
+.acc{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #777;
+}
+.my-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.my-content .name{
+    padding: 0 5rem;
+}
+.my-content h4{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    color: #777;
+    border-bottom: .1rem solid #999;
+}
+.my-content img{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.my-content .button{
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    box-shadow: none;
+    
+}
+.my-content a{
+    font-size: 1.5rem;
+    text-transform: inherit;
+    border: 0;
+    padding: 1rem 2rem;
+    background: #fff;
+    box-shadow: .2rem .2rem .2rem #999,
+                -.1em -.1rem .2rem #dddcdc;
+}
+.my-content a:hover{
+    background: #004f4e;
+    color: #fff;
+    box-shadow: none;
+}
+
+
+
 /*footer section start*/
 .footer-section{
     background: #004f4e;
